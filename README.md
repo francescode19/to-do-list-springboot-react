@@ -1,5 +1,5 @@
 # to-do-list-springboot-react
-A simple full-stack web application built with Spring Boot (backend) and React (frontend). It allows each registered user to create, view, and manage their own tasks, marking them as completed or incomplete.
+A simple demo full-stack web application built with Spring Boot (backend) and React (frontend). It allows each registered user to create, view, and manage their own tasks, marking them as completed or incomplete.
 
 ## Technologies used:
 
@@ -33,7 +33,7 @@ flowchart LR
 
 ## Future Improvements:
 - **UI enhancements:** improve the look and feel of the app
-- **Security upgrades:** strengthen security and implement protections against potential attacks
+- **Improve security:** add further protections (currently, CSRF is disabled for development and CORS is set to allow only the frontend on localhost)
 - **Task scheduling:** correct task timestamps to match actual local time
 - **Additional features:** implement new functionalities to increase usability
 
