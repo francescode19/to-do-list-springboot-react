@@ -1,0 +1,108 @@
+.task-container-light {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #222;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  text-align: center; 
+}
+
+.task-container-light h2,
+.task-container-light h3 {
+  margin-bottom: 1rem;
+}
+
+.task-form-light input,
+.task-form-light textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #222;
+  background-color: #fff;
+  text-align: left; 
+}
+
+.task-form-light input:focus,
+.task-form-light textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.task-form-light button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.task-form-light button:hover {
+  background-color: #357ABD;
+}
+
+.task-list-light {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+  text-align: left; 
+}
+
+.task-item-light {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #222;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-family: inherit;
+}
+
+.task-item-light button {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-red {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #c0392b;
+}
+
+.btn-green {
+  background-color: #27ae60;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #1e8449;
+}
+
+.btn-yellow {
+  background-color: #f1c40f;
+  color: black;
+}
+
+.btn-yellow:hover {
+  background-color: #d4ac0d;
+}
